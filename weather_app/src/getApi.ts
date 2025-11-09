@@ -52,6 +52,8 @@ function displayWeather(weatherData: WeatherData): void{
     weatherFound.classList.remove('hidden')
 
     temp.innerText = `${String(Math.floor(temperature))}°c`
+
+    
     location.innerText = `${city}`
 
     console.log(weatherData);
